@@ -1,9 +1,9 @@
 # app/db/session.py
 from sqlalchemy.orm import scoped_session, sessionmaker
 from contextlib import contextmanager
-from utils.logger import logger
+from src.utils.logger import logger
 
-from data.database.connection import engine
+from src.data.database.connection import engine
 
 SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
 

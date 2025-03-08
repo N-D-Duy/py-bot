@@ -1,8 +1,8 @@
 from sqlalchemy import create_engine
 from sqlalchemy.engine import URL
-from utils.logger import logger
+from src.utils.logger import logger
 
-from config.settings import DATABASE
+from src.config.settings import DATABASE
 
 def get_connection_url():
 

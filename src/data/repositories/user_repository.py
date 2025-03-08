@@ -1,6 +1,6 @@
 from sqlalchemy.orm import Session
-from data.schemas.user import User
-from typing import List, Optional, Any, Type
+from src.data.schemas.user import User
+from typing import Optional, Type
 
 
 class UserRepository:

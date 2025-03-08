@@ -1,6 +1,6 @@
 from sqlalchemy.orm import Session
-from data.repositories.user_repository import UserRepository
-from data.database.session import get_db
+from src.data.repositories.user_repository import UserRepository
+from src.data.database.session import get_db
 
 class UserService:
     def __init__(self, db: Session = None):
